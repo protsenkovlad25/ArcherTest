@@ -1,0 +1,83 @@
+
+archer_bullet.png
+size: 449,170
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+archer/arrow
+  rotate: false
+  xy: 8, 42
+  size: 28, 120
+  orig: 28, 120
+  offset: 0, 0
+  index: -1
+archer/splash/splash_0000
+  rotate: false
+  xy: 44, 89
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+archer/splash/splash_0001
+  rotate: false
+  xy: 125, 89
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+archer/splash/splash_0002
+  rotate: false
+  xy: 206, 89
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+archer/splash/splash_0003
+  rotate: false
+  xy: 287, 89
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+archer/splash/splash_0004
+  rotate: false
+  xy: 368, 89
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+archer/splash/splash_0005
+  rotate: false
+  xy: 44, 8
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+archer/splash/splash_0006
+  rotate: false
+  xy: 125, 8
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+archer/splash/splash_0007
+  rotate: false
+  xy: 206, 8
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+archer/splash/splash_0008
+  rotate: false
+  xy: 287, 8
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+archer/splash/splash_0009
+  rotate: false
+  xy: 368, 8
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1

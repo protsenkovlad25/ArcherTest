@@ -1,0 +1,110 @@
+{
+"skeleton": {
+	"hash": "S6h8xuleLzmzF3g3m4XuU4l9CCc",
+	"spine": "3.8.99",
+	"x": -59.25,
+	"y": -13.64,
+	"width": 120,
+	"height": 28,
+	"images": "",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "splash", "parent": "root" },
+	{ "name": "bullet", "parent": "root" }
+],
+"slots": [
+	{ "name": "archer/arrow", "bone": "bullet", "attachment": "arrow" },
+	{ "name": "archer/splash/splash_0000", "bone": "splash" }
+],
+"skins": [
+	{
+		"name": "arrow1",
+		"attachments": {
+			"archer/arrow": {
+				"arrow": { "name": "archer/arrow", "x": 0.75, "y": 0.36, "rotation": -90, "width": 28, "height": 120 }
+			},
+			"archer/splash/splash_0000": {
+				"splash_0000": { "name": "archer/splash/splash_0000", "width": 73, "height": 73 },
+				"splash_0001": { "name": "archer/splash/splash_0001", "width": 73, "height": 73 },
+				"splash_0002": { "name": "archer/splash/splash_0002", "width": 73, "height": 73 },
+				"splash_0003": { "name": "archer/splash/splash_0003", "width": 73, "height": 73 },
+				"splash_0004": { "name": "archer/splash/splash_0004", "width": 73, "height": 73 },
+				"splash_0005": { "name": "archer/splash/splash_0005", "width": 73, "height": 73 },
+				"splash_0006": { "name": "archer/splash/splash_0006", "width": 73, "height": 73 },
+				"splash_0007": { "name": "archer/splash/splash_0007", "width": 73, "height": 73 },
+				"splash_0008": { "name": "archer/splash/splash_0008", "width": 73, "height": 73 },
+				"splash_0009": { "name": "archer/splash/splash_0009", "width": 73, "height": 73 }
+			}
+		}
+	},
+	{
+		"name": "arrow2",
+		"attachments": {
+			"archer/arrow": {
+				"arrow": {
+					"name": "archer/arrow",
+					"color": "000000ff",
+					"x": 0.75,
+					"y": 0.36,
+					"rotation": -90,
+					"width": 28,
+					"height": 120
+				}
+			},
+			"archer/splash/splash_0000": {
+				"splash_0000": { "name": "archer/splash/splash_0000", "color": "000000ff", "width": 73, "height": 73 },
+				"splash_0001": { "name": "archer/splash/splash_0001", "color": "000000ff", "width": 73, "height": 73 },
+				"splash_0002": { "name": "archer/splash/splash_0002", "color": "000000ff", "width": 73, "height": 73 },
+				"splash_0003": { "name": "archer/splash/splash_0003", "color": "000000ff", "width": 73, "height": 73 },
+				"splash_0004": { "name": "archer/splash/splash_0004", "color": "000000ff", "width": 73, "height": 73 },
+				"splash_0005": { "name": "archer/splash/splash_0005", "color": "000000ff", "width": 73, "height": 73 },
+				"splash_0006": { "name": "archer/splash/splash_0006", "color": "000000ff", "width": 73, "height": 73 },
+				"splash_0007": { "name": "archer/splash/splash_0007", "color": "000000ff", "width": 73, "height": 73 },
+				"splash_0008": { "name": "archer/splash/splash_0008", "color": "000000ff", "width": 73, "height": 73 },
+				"splash_0009": { "name": "archer/splash/splash_0009", "color": "000000ff", "width": 73, "height": 73 }
+			}
+		}
+	}
+],
+"animations": {
+	"attack": {
+		"slots": {
+			"archer/arrow": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"archer/splash/splash_0000": {
+				"color": [
+					{ "time": 0.3, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "splash_0000" },
+					{ "time": 0.0333, "name": "splash_0001" },
+					{ "time": 0.0667, "name": "splash_0002" },
+					{ "time": 0.1, "name": "splash_0003" },
+					{ "time": 0.1333, "name": "splash_0004" },
+					{ "time": 0.1667, "name": "splash_0005" },
+					{ "time": 0.2, "name": "splash_0006" },
+					{ "time": 0.2333, "name": "splash_0007" },
+					{ "time": 0.2667, "name": "splash_0008" },
+					{ "time": 0.3, "name": "splash_0009" },
+					{ "time": 0.5, "name": null }
+				]
+			}
+		}
+	},
+	"idle": {
+		"slots": {
+			"archer/splash/splash_0000": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	}
+}
+}

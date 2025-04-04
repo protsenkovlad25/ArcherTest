@@ -1,0 +1,55 @@
+
+archer.png
+size: 441,125
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+archer/arm
+  rotate: true
+  xy: 283, 16
+  size: 18, 54
+  orig: 18, 54
+  offset: 0, 0
+  index: -1
+archer/arrow
+  rotate: true
+  xy: 215, 42
+  size: 28, 120
+  orig: 28, 120
+  offset: 0, 0
+  index: -1
+archer/body
+  rotate: true
+  xy: 345, 13
+  size: 46, 88
+  orig: 46, 88
+  offset: 0, 0
+  index: -1
+archer/bow
+  rotate: false
+  xy: 8, 8
+  size: 199, 109
+  orig: 199, 109
+  offset: 0, 0
+  index: -1
+archer/bow2
+  rotate: true
+  xy: 215, 78
+  size: 39, 129
+  orig: 39, 129
+  offset: 0, 0
+  index: -1
+archer/head
+  rotate: false
+  xy: 352, 67
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+archer/leg
+  rotate: true
+  xy: 215, 16
+  size: 18, 60
+  orig: 18, 60
+  offset: 0, 0
+  index: -1
